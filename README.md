@@ -1,2 +1,2 @@
-# -
-cuopai
+# hello-world
+Hello world new project template.
