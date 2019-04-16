@@ -1,10 +1,9 @@
 {
-  "ver": "2.2.0",
+  "ver": "1.0.0",
   "uuid": "b43ff3c2-02bb-4874-81f7-f2dea6970f18",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
-  "premultiplyAlpha": false,
   "subMetas": {
     "default_btn_pressed": {
       "ver": "1.0.3",
@@ -21,10 +20,10 @@
       "height": 40,
       "rawWidth": 40,
       "rawHeight": 40,
-      "borderTop": 12,
-      "borderBottom": 12,
-      "borderLeft": 12,
-      "borderRight": 12,
+      "borderTop": 11,
+      "borderBottom": 7,
+      "borderLeft": 11,
+      "borderRight": 11,
       "subMetas": {}
     }
   }

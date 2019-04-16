@@ -1,10 +1,9 @@
 {
-  "ver": "2.2.0",
+  "ver": "1.0.0",
   "uuid": "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
-  "premultiplyAlpha": false,
   "subMetas": {
     "default_scrollbar_vertical": {
       "ver": "1.0.3",
@@ -15,16 +14,16 @@
       "rotated": false,
       "offsetX": 0,
       "offsetY": 0,
-      "trimX": 0,
+      "trimX": 2,
       "trimY": 0,
-      "width": 15,
+      "width": 11,
       "height": 30,
       "rawWidth": 15,
       "rawHeight": 30,
-      "borderTop": 10,
-      "borderBottom": 10,
-      "borderLeft": 4,
-      "borderRight": 4,
+      "borderTop": 5,
+      "borderBottom": 5,
+      "borderLeft": 0,
+      "borderRight": 0,
       "subMetas": {}
     }
   }

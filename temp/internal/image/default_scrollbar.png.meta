@@ -1,10 +1,9 @@
 {
-  "ver": "2.2.0",
+  "ver": "1.0.0",
   "uuid": "0291c134-b3da-4098-b7b5-e397edbe947f",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
-  "premultiplyAlpha": false,
   "subMetas": {
     "default_scrollbar": {
       "ver": "1.0.3",
@@ -16,13 +15,13 @@
       "offsetX": 0,
       "offsetY": 0,
       "trimX": 0,
-      "trimY": 0,
+      "trimY": 2,
       "width": 30,
-      "height": 15,
+      "height": 11,
       "rawWidth": 30,
       "rawHeight": 15,
-      "borderTop": 4,
-      "borderBottom": 4,
+      "borderTop": 0,
+      "borderBottom": 0,
       "borderLeft": 10,
       "borderRight": 10,
       "subMetas": {}

@@ -1,10 +1,9 @@
 {
-  "ver": "2.2.0",
+  "ver": "1.0.0",
   "uuid": "cfef78f1-c8df-49b7-8ed0-4c953ace2621",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
-  "premultiplyAlpha": false,
   "subMetas": {
     "default_progressbar": {
       "ver": "1.0.3",
@@ -21,10 +20,10 @@
       "height": 15,
       "rawWidth": 30,
       "rawHeight": 15,
-      "borderTop": 4,
-      "borderBottom": 4,
-      "borderLeft": 10,
-      "borderRight": 10,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 5,
+      "borderRight": 5,
       "subMetas": {}
     }
   }

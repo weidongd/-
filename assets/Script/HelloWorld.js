@@ -10,17 +10,17 @@ cc.Class({
         text: 'Hello, World!',
 
        
-        frontSprite:{
-            default:null,
-            type: cc.SpriteFrame
-        },
+        // frontSprite:{
+        //     default:null,
+        //     type: cc.SpriteFrame
+        // },
 
 
 
-        backSprite :{
-            default:null,
-            type: cc.SpriteFrame
-        }
+        // backSprite :{
+        //     default:null,
+        //     type: cc.SpriteFrame
+        // }
 
     },
 
@@ -413,13 +413,13 @@ cc.Class({
     },
 
     __createTextures: function () {
-        // var imgUrl = cc.url.raw(this.szFont);
-        // this.frontSprite = cc.textureCache.addImage(imgUrl);
-        // this.frontSprite.retain();
+        var imgUrl = cc.url.raw(this.szFont);
+        this.frontSprite = cc.textureCache.addImage(imgUrl);
+        this.frontSprite.retain();
 
-        // imgUrl = cc.url.raw(this.szBack);
-        // this.backSprite = cc.textureCache.addImage(imgUrl);
-        // this.backSprite.retain();
+        imgUrl = cc.url.raw(this.szBack);
+        this.backSprite = cc.textureCache.addImage(imgUrl);
+        this.backSprite.retain();
 
         var pokerSize = cc.size(314,475)//this.backSprite.getContentSize();
         this.pokerWidth = pokerSize.height
